@@ -36,7 +36,7 @@ const perguntas = [
   {
     enunciado:"Você trabalha?";
     alternativas:[
-      "aSim";
+      "Sim";
       "Não";
 ]
 },
