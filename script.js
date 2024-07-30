@@ -6,12 +6,12 @@ const textoResultado = document.querySelector(".texto-resultado")
 
 const perguntas = [
   {
-    enunciado:"Você gostaria de ir á Italia?";
-    alternativas:[
+    enunciado: "Você gostaria de ir á Italia?",
+    alternativas: [
       {
     texto:"sim",
-      afirmação:"afirmação",
-      }
+      afirmação:"afirmação"
+      },
       {
       texto:"não",
       afirmação:"afirmação"
@@ -19,34 +19,59 @@ const perguntas = [
       ]
 }
 {
-     enunciado:"Você já viajou?";
-    alternativas:[
-      "Sim";
-      "Não";
+     enunciado:"Você já viajou?",
+      alternativas: [
+      {
+    texto:"sim",
+      afirmação:"afirmação"
+      },
+      {
+      texto:"não",
+      afirmação:"afirmação"
+      }
+      ]
 ]
 },
   {
-    enunciado:"Você tem passaporte?";
-    alternativas:[
-      "Sim";
-      "Não";
+    enunciado:"Você tem passaporte?",
+    alternativas: [
+      {
+    texto:"sim",
+      afirmação:"afirmação"
+      },
+      {
+      texto:"não",
+      afirmação:"afirmação"
+      }
+      ]
 ]
 },
   {
-    enunciado:"Você tem condições para viajar?";
-    alternativas:[
-      "Sim";
-      "Não";
+    enunciado:"Você tem condições para viajar?",
+    alternativas: [
+      {
+    texto:"sim",
+      afirmação:"afirmação"
+      },
+      {
+      texto:"não",
+      afirmação:"afirmação"
+      }
+      ]
 ]
 },
   {
     enunciado:"Você trabalha?";
-    alternativas:[
-      "Sim";
-      "Não";
-]
-},
-];
+   alternativas: [
+      {
+    texto:"sim",
+      afirmação:"afirmação"
+      },
+      {
+      texto:"não",
+      afirmação:"afirmação"
+      }
+      ]
 let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
@@ -72,7 +97,7 @@ function mostraAlternativas(){
 }
 
 function respostaSelecionada(opcaoSelecionada) {
-    const afirmacoes = opcaoSelecionada.afirmacao;
+    const afirmacoes = opcaoSelecionada.afirmação;
     historiaFinal += afirmacoes + " ";
     atual++;
     mostraPergunta();
