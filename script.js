@@ -6,44 +6,44 @@ const textoResultado = document.querySelector(".texto-resultado")
 
 const perguntas = [
   {
-    enunciado:"Você gostaria de ir á Italia?";
+    enunciado:"Você gostaria de ir á Italia?",
     alternativas:[
       {
     texto:"sim",
       afirmação:"afirmação",
-      }
+      },
       {
       texto:"não",
       afirmação:"afirmação"
       }
       ]
-}
+},
 {
-     enunciado:"Você já viajou?";
+     enunciado:"Você já viajou?",
     alternativas:[
-      "Sim";
-      "Não";
+      "Sim",
+      "Não",
 ]
 },
   {
-    enunciado:"Você tem passaporte?";
+    enunciado:"Você tem passaporte?",
     alternativas:[
-      "Sim";
-      "Não";
+      "Sim",
+      "Não",
 ]
 },
   {
-    enunciado:"Você tem condições para viajar?";
+    enunciado:"Você tem condições para viajar?",
     alternativas:[
-      "Sim";
-      "Não";
+      "Sim",
+      "Não",
 ]
 },
   {
-    enunciado:"Você trabalha?";
+    enunciado:"Você trabalha?",
     alternativas:[
-      "Sim";
-      "Não";
+      "Sim",
+      "Não",
 ]
 },
 ];
